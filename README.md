@@ -131,3 +131,42 @@ Write a function that measures the balance factor of a binary tree
 Prototype: int binary_tree_balance(const binary_tree_t *tree);
 Where tree is a pointer to the root node of the tree to measure the balance factor
 If tree is NULL, return 0
+
+15. Is full
+mandatory
+Write a function that checks if a binary tree is full
+
+Prototype: int binary_tree_is_full(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
+
+16. Is perfect
+mandatory
+Write a function that checks if a binary tree is perfect
+
+Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
+
+
+17. Sibling
+mandatory
+Write a function that finds the sibling of a node
+
+Prototype: binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+Where node is a pointer to the node to find the sibling
+Your function must return a pointer to the sibling node
+If node is NULL or the parent is NULL, return NULL
+If node has no sibling, return NULL
+
+18. Uncle
+mandatory
+Write a function that finds the uncle of a node
+
+Prototype: binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+Where node is a pointer to the node to find the uncle
+Your function must return a pointer to the uncle node
+If node is NULL, return NULL
+If node has no uncle, return NULL
+
+
